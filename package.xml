@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>shadow_hand_ign</name>
+    <version>1.0.0</version>
+    <description>Shadow Hand compatible with Ignition</description>
+    <maintainer email="orsula.andrej@gmail.com">Andrej Orsula</maintainer>
+    <author>Andrej Orsula</author>
+    <license>BSD</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
