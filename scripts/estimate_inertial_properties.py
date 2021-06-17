@@ -23,6 +23,9 @@ def main():
             print("Error: Total mass of Shadow Hand (first argument) must be positive.")
             exit(1)
     print('Estimating inertial properties for each link to add up to %f kg' % total_mass)
+    
+    # Proportion of forearm mass to evenly redistribute to other links
+    forearm_mass_redistribute_percentage = 0.5
 
     # Get path to all visual meshes
     visual_mesh_dir = path.join(path.dirname(path.dirname(
@@ -49,10 +52,16 @@ def main():
             print(f'Note: {link_name} volume added four times to the total volume')
         else:
             total_volume += mesh.volume
+        if 'forearm' in link_name:
+            forearm_volume = mesh.volume
 
     # Compute average density
     average_density = total_mass/total_volume
     print('Average density estimate: %f kg/m^3' % average_density)
+
+    # Determine how much of this is from the forearm and redistribute to other links
+    forearm_volume_proportion = forearm_volume/total_volume
+    other_links_proportion = 1-forearm_volume_proportion
 
     # Estimate inertial properties for each link
     mass = {}
@@ -60,7 +69,10 @@ def main():
     centre_of_mass = {}
     for link_name in meshes:
         mesh = meshes[link_name]
-        mesh.density = average_density
+        if 'forearm' in link_name:
+            mesh.density = (1-forearm_mass_redistribute_percentage)*average_density
+        else:
+            mesh.density = average_density+((forearm_mass_redistribute_percentage/other_links_proportion-forearm_mass_redistribute_percentage)*average_density)
         mass[link_name] = mesh.mass
         inertia[link_name] = mesh.moment_inertia
         centre_of_mass[link_name] = mesh.center_mass
@@ -69,6 +81,14 @@ def main():
     sdf = SDF()
     sdf.add_model(name='shadow_hand')
     model = sdf.models[0]
+
+    total_mass = 0
+    for link_name in meshes:
+        if 'finger' in link_name or 'knuckle' in link_name:
+            total_mass += 4*mass[link_name]
+        else:
+            total_mass += mass[link_name]
+    print(total_mass)
 
     # Set inertial properties for each link into the SDF
     for link_name in meshes:

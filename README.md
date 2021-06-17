@@ -4,7 +4,11 @@ URDF and SDF descriptions of Shadow Hand compatible with Ignition.
 
 ![shadow_hand](shadow_hand/thumbnails/2.png)
 
-Visual mesh geometry and kinematic properties are taken from [shadow-robot/sr_common](https://github.com/shadow-robot/sr_common). Collision geometry was remodelled to improve physical interactions (at the cost of performance). Inertial properties of all links are estimated with [estimate_inertial_properties.py](scripts/estimate_inertial_properties.py) script, while assuming total mass of 4.2 kg and uniform density. Names of links and joints do not match the original URDF description.
+Visual mesh geometry and kinematic properties are taken from [shadow-robot/sr_common](https://github.com/shadow-robot/sr_common). Collision geometry was remodelled to improve physical interactions (at the cost of performance). 
+
+Inertial properties of all links are estimated with [estimate_inertial_properties.py](scripts/estimate_inertial_properties.py) script, while assuming total mass of 4.2 kg and uniform density. Furthermore, 50% of forearm's mass is redistributed to other links in order to account for the mechanical coupling via tendons.
+
+> Names of links and joints were changed to simplify the model and they do not match the original URDF description.
 
 ## Instructions
 

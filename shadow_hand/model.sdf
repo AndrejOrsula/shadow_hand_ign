@@ -27,15 +27,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>0.000158664 -0.000296214 0.0939161 0 0 0</pose>
-                <mass>3.7341173015346683</mass>
+                <pose>0.000158665 -0.000296213 0.0939161 0 0 0</pose>
+                <mass>1.8670590993494502</mass>
                 <inertia>
-                    <ixx>0.014958642677085437</ixx>
-                    <iyy>0.01495095678803383</iyy>
-                    <izz>0.008312516810084897</izz>
-                    <ixy>-1.4535374883756278e-07</ixy>
-                    <ixz>8.503435743103697e-07</ixz>
-                    <iyz>7.767903516635545e-05</iyz>
+                    <ixx>0.007479321336534709</ixx>
+                    <iyy>0.007475478330362289</iyy>
+                    <izz>0.004156257054350847</izz>
+                    <ixy>-7.267790891410464e-08</ixy>
+                    <ixz>4.2529549726838906e-07</ixz>
+                    <iyz>3.883949104746152e-05</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -58,15 +58,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>0.0019993 -4.78915e-05 0.0114012 0 0 0</pose>
-                <mass>0.041829591028597575</mass>
+                <pose>0.00199931 -4.79026e-05 0.0114013 0 0 0</pose>
+                <mass>0.20946475291094357</mass>
                 <inertia>
-                    <ixx>1.1169284414636923e-05</ixx>
-                    <iyy>2.5657211730082853e-05</iyy>
-                    <izz>1.7706962551088734e-05</izz>
-                    <ixy>-3.754588819476189e-09</ixy>
-                    <ixz>-2.608147640679391e-07</ixz>
-                    <iyz>-2.2829074606977278e-08</iyz>
+                    <ixx>5.593091243122308e-05</ixx>
+                    <iyy>0.00012848029174956482</iyy>
+                    <izz>8.86688859858151e-05</izz>
+                    <ixy>-1.8807050662536076e-08</ixy>
+                    <ixz>-1.3060607259007272e-06</ixz>
+                    <iyz>-1.1433247253685913e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -89,15 +89,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>0.00560661 0.000168758 0.0406171 0 0 0</pose>
-                <mass>0.17950902043639072</mass>
+                <pose>0.00560659 0.000168738 0.0406171 0 0 0</pose>
+                <mass>0.8989030155430766</mass>
                 <inertia>
-                    <ixx>0.00015079195488992757</ixx>
-                    <iyy>0.00021796769123546926</iyy>
-                    <izz>8.397045203131613e-05</izz>
-                    <ixy>-6.974990355367058e-07</ixy>
-                    <ixz>-1.6367707827964316e-05</ixz>
-                    <iyz>-4.525941773498655e-06</iyz>
+                    <ixx>0.0007551001272989889</ixx>
+                    <iyy>0.001091486701981928</iyy>
+                    <izz>0.0004204867341503172</izz>
+                    <ixy>-3.492739878765091e-06</ixy>
+                    <ixz>-8.196253003214903e-05</ixz>
+                    <iyz>-2.266383206764121e-05</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -117,8 +117,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>1.5</damping>
-                    <friction>0.1</friction>
+                    <damping>0.3</damping>
+                    <friction>0.002</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -138,8 +138,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>1.0</damping>
-                    <friction>0.06</friction>
+                    <damping>0.25</damping>
+                    <friction>0.0015</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -170,15 +170,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>-6.37675e-06 -2.60275e-05 0.0167151 0 0 0</pose>
-                <mass>0.029845248074084476</mass>
+                <pose>-6.37678e-06 -2.60263e-05 0.0167151 0 0 0</pose>
+                <mass>0.14945225599921122</mass>
                 <inertia>
-                    <ixx>8.809503813681578e-06</ixx>
-                    <iyy>8.807214493354287e-06</iyy>
-                    <izz>1.7686291195911157e-06</izz>
-                    <ixy>1.1091315316601925e-09</ixy>
-                    <ixz>-7.143938130876406e-09</ixz>
-                    <iyz>-2.926129007659203e-09</iyz>
+                    <ixx>4.411418271322683e-05</ixx>
+                    <iyy>4.4102721450521684e-05</iyy>
+                    <izz>8.856520036977598e-06</izz>
+                    <ixy>5.554615670778389e-09</ixy>
+                    <ixz>-3.57753482568105e-08</ixz>
+                    <iyz>-1.4658342135322015e-08</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -205,15 +205,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>7.47918e-05 -4.50772e-05 0.0153482 0 0 0</pose>
-                <mass>0.022009607749522726</mass>
+                <pose>7.47896e-05 -4.5082e-05 0.0153482 0 0 0</pose>
+                <mass>0.11021476278915708</mass>
                 <inertia>
-                    <ixx>4.866417056873123e-06</ixx>
-                    <iyy>4.7426247872167984e-06</iyy>
-                    <izz>1.12164194910586e-06</izz>
-                    <ixy>5.654775451358392e-13</ixy>
-                    <ixz>3.3825197205604484e-09</ixz>
-                    <iyz>1.4024793995336764e-13</iyz>
+                    <ixx>2.4368918444527592e-05</ixx>
+                    <iyy>2.3749026220471563e-05</iyy>
+                    <izz>5.6166937499601026e-06</izz>
+                    <ixy>2.681795007815437e-12</ixy>
+                    <ixz>1.6935381501090475e-08</ixz>
+                    <iyz>4.266902097800442e-12</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -236,15 +236,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>2.55239e-05 0.000159329 0.0160141 0 0 0</pose>
-                <mass>0.012191416337983986</mass>
+                <pose>2.55227e-05 0.000159331 0.0160141 0 0 0</pose>
+                <mass>0.06104943729865724</mass>
                 <inertia>
-                    <ixx>1.1139538847236076e-06</ixx>
-                    <iyy>1.2119434354416967e-06</iyy>
-                    <izz>5.611124622170998e-07</izz>
-                    <ixy>-1.5402384459710979e-09</ixy>
-                    <ixz>5.280946434116175e-09</ixz>
-                    <iyz>6.345744802722492e-08</iyz>
+                    <ixx>5.578197585761807e-06</ixx>
+                    <iyy>6.068884597217566e-06</iyy>
+                    <izz>2.809810687287833e-06</izz>
+                    <ixy>-7.712412276601149e-09</ixy>
+                    <ixz>2.6443953020771643e-08</ixz>
+                    <iyz>3.177683019939289e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -264,8 +264,8 @@
                     <velocity>4</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.2</damping>
+                    <friction>0.0005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -285,8 +285,8 @@
                     <velocity>4</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.2</damping>
+                    <friction>0.0005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -306,8 +306,8 @@
                     <velocity>4</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.1</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -327,8 +327,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.05</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -348,8 +348,8 @@
                     <velocity>4</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.025</damping>
+                    <friction>0.00001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -377,14 +377,14 @@
             </collision>
             <inertial>
                 <pose>-1.04918e-05 0.000479353 -0.000502517 0 0 0</pose>
-                <mass>0.0035070211983386054</mass>
+                <mass>0.01756170743072032</mass>
                 <inertia>
-                    <ixx>1.2613822953446773e-07</ixx>
-                    <iyy>1.11133938741452e-07</iyy>
-                    <izz>1.08204456507778e-07</izz>
-                    <ixy>-2.472822460210415e-10</ixy>
-                    <ixz>-1.164468880051402e-10</ixz>
-                    <iyz>2.0243718895568695e-09</iyz>
+                    <ixx>6.316479307176084e-07</ixx>
+                    <iyy>5.565126662837287e-07</iyy>
+                    <izz>5.418430344218945e-07</izz>
+                    <ixy>-1.2382869141168063e-09</ixy>
+                    <ixz>-5.831177123574035e-10</ixz>
+                    <iyz>1.0137214702954782e-08</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -407,15 +407,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>1.36521e-06 5.46075e-05 0.0253411 0 0 0</pose>
-                <mass>0.016546729448686223</mass>
+                <pose>1.36393e-06 5.46069e-05 0.0253411 0 0 0</pose>
+                <mass>0.08285889035010244</mass>
                 <inertia>
-                    <ixx>3.2790314425912466e-06</ixx>
-                    <iyy>3.426407472161571e-06</iyy>
-                    <izz>7.483590841347604e-07</izz>
-                    <ixy>2.3206915370866564e-12</ixy>
-                    <ixz>-1.505092275461155e-10</ixz>
-                    <iyz>-3.496779879303333e-08</iyz>
+                    <ixx>1.64199692748578e-05</ixx>
+                    <iyy>1.7157966187680744e-05</iyy>
+                    <izz>3.747449913981619e-06</izz>
+                    <ixy>1.253825845654266e-11</ixy>
+                    <ixz>-7.420066134437321e-10</ixz>
+                    <iyz>-1.7510504779955134e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -438,15 +438,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>-2.71515e-06 -3.22073e-05 0.0115512 0 0 0</pose>
-                <mass>0.012408560609951024</mass>
+                <pose>-2.71515e-06 -3.22079e-05 0.0115512 0 0 0</pose>
+                <mass>0.06213685090672571</mass>
                 <inertia>
-                    <ixx>1.5832484254307727e-06</ixx>
-                    <iyy>1.6564644723522258e-06</iyy>
-                    <izz>4.666927966755565e-07</izz>
-                    <ixy>2.712627657702685e-13</ixy>
-                    <ixz>1.708810927508445e-11</ixz>
-                    <iyz>3.05685228626636e-10</iyz>
+                    <ixx>7.92822501939719e-06</ixx>
+                    <iyy>8.29486054080741e-06</iyy>
+                    <izz>2.3370015376721975e-06</izz>
+                    <ixy>1.358464044894204e-12</ixy>
+                    <ixz>8.557150053771225e-11</ixz>
+                    <iyz>1.5315102261449506e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -469,15 +469,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>6.76198e-09 -0.000120361 0.0153038 0 0 0</pose>
-                <mass>0.005483958097427844</mass>
+                <pose>6.76188e-09 -0.000120361 0.0153037 0 0 0</pose>
+                <mass>0.02746135061792896</mass>
                 <inertia>
-                    <ixx>2.8345521306539727e-07</ixx>
-                    <iyy>3.1564663297634386e-07</iyy>
-                    <izz>1.681513616992521e-07</izz>
-                    <ixy>3.258702375668527e-13</ixy>
-                    <ixz>2.4425287458423485e-13</ixz>
-                    <iyz>9.87273750852163e-10</iyz>
+                    <ixx>1.4194224188403926e-06</ixx>
+                    <iyy>1.5806235334852189e-06</iyy>
+                    <izz>8.420308791621785e-07</izz>
+                    <ixy>1.6317994313320325e-12</ixy>
+                    <ixz>1.2231062439498777e-12</ixz>
+                    <iyz>4.943899859930379e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -497,8 +497,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.15</damping>
+                    <friction>0.0002</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -518,8 +518,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.1</damping>
+                    <friction>0.0001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -539,8 +539,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.05</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -560,8 +560,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.025</damping>
+                    <friction>0.00001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -589,14 +589,14 @@
             </collision>
             <inertial>
                 <pose>-1.04918e-05 0.000479353 -0.000502517 0 0 0</pose>
-                <mass>0.0035070211983386054</mass>
+                <mass>0.01756170743072032</mass>
                 <inertia>
-                    <ixx>1.2613822953446773e-07</ixx>
-                    <iyy>1.11133938741452e-07</iyy>
-                    <izz>1.08204456507778e-07</izz>
-                    <ixy>-2.472822460210415e-10</ixy>
-                    <ixz>-1.164468880051402e-10</ixz>
-                    <iyz>2.0243718895568695e-09</iyz>
+                    <ixx>6.316479307176084e-07</ixx>
+                    <iyy>5.565126662837287e-07</iyy>
+                    <izz>5.418430344218945e-07</izz>
+                    <ixy>-1.2382869141168063e-09</ixy>
+                    <ixz>-5.831177123574035e-10</ixz>
+                    <iyz>1.0137214702954782e-08</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -619,15 +619,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>1.36521e-06 5.46075e-05 0.0253411 0 0 0</pose>
-                <mass>0.016546729448686223</mass>
+                <pose>1.36393e-06 5.46069e-05 0.0253411 0 0 0</pose>
+                <mass>0.08285889035010244</mass>
                 <inertia>
-                    <ixx>3.2790314425912466e-06</ixx>
-                    <iyy>3.426407472161571e-06</iyy>
-                    <izz>7.483590841347604e-07</izz>
-                    <ixy>2.3206915370866564e-12</ixy>
-                    <ixz>-1.505092275461155e-10</ixz>
-                    <iyz>-3.496779879303333e-08</iyz>
+                    <ixx>1.64199692748578e-05</ixx>
+                    <iyy>1.7157966187680744e-05</iyy>
+                    <izz>3.747449913981619e-06</izz>
+                    <ixy>1.253825845654266e-11</ixy>
+                    <ixz>-7.420066134437321e-10</ixz>
+                    <iyz>-1.7510504779955134e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -650,15 +650,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>-2.71515e-06 -3.22073e-05 0.0115512 0 0 0</pose>
-                <mass>0.012408560609951024</mass>
+                <pose>-2.71515e-06 -3.22079e-05 0.0115512 0 0 0</pose>
+                <mass>0.06213685090672571</mass>
                 <inertia>
-                    <ixx>1.5832484254307727e-06</ixx>
-                    <iyy>1.6564644723522258e-06</iyy>
-                    <izz>4.666927966755565e-07</izz>
-                    <ixy>2.712627657702685e-13</ixy>
-                    <ixz>1.708810927508445e-11</ixz>
-                    <iyz>3.05685228626636e-10</iyz>
+                    <ixx>7.92822501939719e-06</ixx>
+                    <iyy>8.29486054080741e-06</iyy>
+                    <izz>2.3370015376721975e-06</izz>
+                    <ixy>1.358464044894204e-12</ixy>
+                    <ixz>8.557150053771225e-11</ixz>
+                    <iyz>1.5315102261449506e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -681,15 +681,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>6.76198e-09 -0.000120361 0.0153038 0 0 0</pose>
-                <mass>0.005483958097427844</mass>
+                <pose>6.76188e-09 -0.000120361 0.0153037 0 0 0</pose>
+                <mass>0.02746135061792896</mass>
                 <inertia>
-                    <ixx>2.8345521306539727e-07</ixx>
-                    <iyy>3.1564663297634386e-07</iyy>
-                    <izz>1.681513616992521e-07</izz>
-                    <ixy>3.258702375668527e-13</ixy>
-                    <ixz>2.4425287458423485e-13</ixz>
-                    <iyz>9.87273750852163e-10</iyz>
+                    <ixx>1.4194224188403926e-06</ixx>
+                    <iyy>1.5806235334852189e-06</iyy>
+                    <izz>8.420308791621785e-07</izz>
+                    <ixy>1.6317994313320325e-12</ixy>
+                    <ixz>1.2231062439498777e-12</ixz>
+                    <iyz>4.943899859930379e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -711,8 +711,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.15</damping>
+                    <friction>0.0002</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -732,8 +732,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.1</damping>
+                    <friction>0.0001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -753,8 +753,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.05</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -774,8 +774,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.025</damping>
+                    <friction>0.00001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -803,14 +803,14 @@
             </collision>
             <inertial>
                 <pose>-1.04918e-05 0.000479353 -0.000502517 0 0 0</pose>
-                <mass>0.0035070211983386054</mass>
+                <mass>0.01756170743072032</mass>
                 <inertia>
-                    <ixx>1.2613822953446773e-07</ixx>
-                    <iyy>1.11133938741452e-07</iyy>
-                    <izz>1.08204456507778e-07</izz>
-                    <ixy>-2.472822460210415e-10</ixy>
-                    <ixz>-1.164468880051402e-10</ixz>
-                    <iyz>2.0243718895568695e-09</iyz>
+                    <ixx>6.316479307176084e-07</ixx>
+                    <iyy>5.565126662837287e-07</iyy>
+                    <izz>5.418430344218945e-07</izz>
+                    <ixy>-1.2382869141168063e-09</ixy>
+                    <ixz>-5.831177123574035e-10</ixz>
+                    <iyz>1.0137214702954782e-08</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -833,15 +833,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>1.36521e-06 5.46075e-05 0.0253411 0 0 0</pose>
-                <mass>0.016546729448686223</mass>
+                <pose>1.36393e-06 5.46069e-05 0.0253411 0 0 0</pose>
+                <mass>0.08285889035010244</mass>
                 <inertia>
-                    <ixx>3.2790314425912466e-06</ixx>
-                    <iyy>3.426407472161571e-06</iyy>
-                    <izz>7.483590841347604e-07</izz>
-                    <ixy>2.3206915370866564e-12</ixy>
-                    <ixz>-1.505092275461155e-10</ixz>
-                    <iyz>-3.496779879303333e-08</iyz>
+                    <ixx>1.64199692748578e-05</ixx>
+                    <iyy>1.7157966187680744e-05</iyy>
+                    <izz>3.747449913981619e-06</izz>
+                    <ixy>1.253825845654266e-11</ixy>
+                    <ixz>-7.420066134437321e-10</ixz>
+                    <iyz>-1.7510504779955134e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -864,15 +864,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>-2.71515e-06 -3.22073e-05 0.0115512 0 0 0</pose>
-                <mass>0.012408560609951024</mass>
+                <pose>-2.71515e-06 -3.22079e-05 0.0115512 0 0 0</pose>
+                <mass>0.06213685090672571</mass>
                 <inertia>
-                    <ixx>1.5832484254307727e-06</ixx>
-                    <iyy>1.6564644723522258e-06</iyy>
-                    <izz>4.666927966755565e-07</izz>
-                    <ixy>2.712627657702685e-13</ixy>
-                    <ixz>1.708810927508445e-11</ixz>
-                    <iyz>3.05685228626636e-10</iyz>
+                    <ixx>7.92822501939719e-06</ixx>
+                    <iyy>8.29486054080741e-06</iyy>
+                    <izz>2.3370015376721975e-06</izz>
+                    <ixy>1.358464044894204e-12</ixy>
+                    <ixz>8.557150053771225e-11</ixz>
+                    <iyz>1.5315102261449506e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -895,15 +895,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>6.76198e-09 -0.000120361 0.0153038 0 0 0</pose>
-                <mass>0.005483958097427844</mass>
+                <pose>6.76188e-09 -0.000120361 0.0153037 0 0 0</pose>
+                <mass>0.02746135061792896</mass>
                 <inertia>
-                    <ixx>2.8345521306539727e-07</ixx>
-                    <iyy>3.1564663297634386e-07</iyy>
-                    <izz>1.681513616992521e-07</izz>
-                    <ixy>3.258702375668527e-13</ixy>
-                    <ixz>2.4425287458423485e-13</ixz>
-                    <iyz>9.87273750852163e-10</iyz>
+                    <ixx>1.4194224188403926e-06</ixx>
+                    <iyy>1.5806235334852189e-06</iyy>
+                    <izz>8.420308791621785e-07</izz>
+                    <ixy>1.6317994313320325e-12</ixy>
+                    <ixz>1.2231062439498777e-12</ixz>
+                    <iyz>4.943899859930379e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -923,8 +923,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.15</damping>
+                    <friction>0.0002</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -944,8 +944,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.1</damping>
+                    <friction>0.0001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -965,8 +965,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.05</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -986,8 +986,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.025</damping>
+                    <friction>0.00001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -1015,14 +1015,14 @@
             </collision>
             <inertial>
                 <pose>0.00256076 0.000530977 0.0357809 0 0 0</pose>
-                <mass>0.028712737421138307</mass>
+                <mass>0.1437814788875964</mass>
                 <inertia>
-                    <ixx>6.379834557352727e-06</ixx>
-                    <iyy>7.213134316020707e-06</iyy>
-                    <izz>3.1646574521542297e-06</izz>
-                    <ixy>4.254904885572987e-08</ixy>
-                    <ixz>8.679884151458579e-07</ixz>
-                    <iyz>-1.2278795447712084e-07</iyz>
+                    <ixx>3.19475650762325e-05</ixx>
+                    <iyy>3.6120384617440835e-05</iyy>
+                    <izz>1.58472918335685e-05</izz>
+                    <ixy>2.1306799619147762e-07</ixy>
+                    <ixz>4.34652595971126e-06</ixz>
+                    <iyz>-6.148711513920819e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -1046,14 +1046,14 @@
             </collision>
             <inertial>
                 <pose>-1.04918e-05 0.000479353 -0.000502517 0 0 0</pose>
-                <mass>0.0035070211983386054</mass>
+                <mass>0.01756170743072032</mass>
                 <inertia>
-                    <ixx>1.2613822953446773e-07</ixx>
-                    <iyy>1.11133938741452e-07</iyy>
-                    <izz>1.08204456507778e-07</izz>
-                    <ixy>-2.472822460210415e-10</ixy>
-                    <ixz>-1.164468880051402e-10</ixz>
-                    <iyz>2.0243718895568695e-09</iyz>
+                    <ixx>6.316479307176084e-07</ixx>
+                    <iyy>5.565126662837287e-07</iyy>
+                    <izz>5.418430344218945e-07</izz>
+                    <ixy>-1.2382869141168063e-09</ixy>
+                    <ixz>-5.831177123574035e-10</ixz>
+                    <iyz>1.0137214702954782e-08</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -1076,15 +1076,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>1.36521e-06 5.46075e-05 0.0253411 0 0 0</pose>
-                <mass>0.016546729448686223</mass>
+                <pose>1.36393e-06 5.46069e-05 0.0253411 0 0 0</pose>
+                <mass>0.08285889035010244</mass>
                 <inertia>
-                    <ixx>3.2790314425912466e-06</ixx>
-                    <iyy>3.426407472161571e-06</iyy>
-                    <izz>7.483590841347604e-07</izz>
-                    <ixy>2.3206915370866564e-12</ixy>
-                    <ixz>-1.505092275461155e-10</ixz>
-                    <iyz>-3.496779879303333e-08</iyz>
+                    <ixx>1.64199692748578e-05</ixx>
+                    <iyy>1.7157966187680744e-05</iyy>
+                    <izz>3.747449913981619e-06</izz>
+                    <ixy>1.253825845654266e-11</ixy>
+                    <ixz>-7.420066134437321e-10</ixz>
+                    <iyz>-1.7510504779955134e-07</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -1107,15 +1107,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>-2.71515e-06 -3.22073e-05 0.0115512 0 0 0</pose>
-                <mass>0.012408560609951024</mass>
+                <pose>-2.71515e-06 -3.22079e-05 0.0115512 0 0 0</pose>
+                <mass>0.06213685090672571</mass>
                 <inertia>
-                    <ixx>1.5832484254307727e-06</ixx>
-                    <iyy>1.6564644723522258e-06</iyy>
-                    <izz>4.666927966755565e-07</izz>
-                    <ixy>2.712627657702685e-13</ixy>
-                    <ixz>1.708810927508445e-11</ixz>
-                    <iyz>3.05685228626636e-10</iyz>
+                    <ixx>7.92822501939719e-06</ixx>
+                    <iyy>8.29486054080741e-06</iyy>
+                    <izz>2.3370015376721975e-06</izz>
+                    <ixy>1.358464044894204e-12</ixy>
+                    <ixz>8.557150053771225e-11</ixz>
+                    <iyz>1.5315102261449506e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -1138,15 +1138,15 @@
                 </geometry>
             </collision>
             <inertial>
-                <pose>6.76198e-09 -0.000120361 0.0153038 0 0 0</pose>
-                <mass>0.005483958097427844</mass>
+                <pose>6.76188e-09 -0.000120361 0.0153037 0 0 0</pose>
+                <mass>0.02746135061792896</mass>
                 <inertia>
-                    <ixx>2.8345521306539727e-07</ixx>
-                    <iyy>3.1564663297634386e-07</iyy>
-                    <izz>1.681513616992521e-07</izz>
-                    <ixy>3.258702375668527e-13</ixy>
-                    <ixz>2.4425287458423485e-13</ixz>
-                    <iyz>9.87273750852163e-10</iyz>
+                    <ixx>1.4194224188403926e-06</ixx>
+                    <iyy>1.5806235334852189e-06</iyy>
+                    <izz>8.420308791621785e-07</izz>
+                    <ixy>1.6317994313320325e-12</ixy>
+                    <ixz>1.2231062439498777e-12</ixz>
+                    <iyz>4.943899859930379e-09</iyz>
                 </inertia>
             </inertial>
         </link>
@@ -1166,8 +1166,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.2</damping>
+                    <friction>0.0005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -1187,8 +1187,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.9</damping>
-                    <friction>0.05</friction>
+                    <damping>0.15</damping>
+                    <friction>0.0002</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -1208,8 +1208,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.1</damping>
+                    <friction>0.0001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -1229,8 +1229,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.05</damping>
+                    <friction>0.00005</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
@@ -1250,8 +1250,8 @@
                     <velocity>2</velocity>
                 </limit>
                 <dynamics>
-                    <damping>0.6</damping>
-                    <friction>0.05</friction>
+                    <damping>0.025</damping>
+                    <friction>0.00001</friction>
                     <spring_reference>0</spring_reference>
                     <spring_stiffness>0</spring_stiffness>
                 </dynamics>
